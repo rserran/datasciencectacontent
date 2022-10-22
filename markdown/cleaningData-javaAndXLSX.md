@@ -10,8 +10,6 @@ If a student attempts to load the xlsx package without a Java runtime envrionmen
 
 <img src="./images/cleaningData-javaError01.png">
 
-After this error message is displayed at the operating system level, RStudio will terminate.
-
 ## Solution 1: Use an Excel Reader Package that Doesn't Require Java
 
 <b>PRO TIP: </b> The easiest way to work around this problem is to use an R package that does not depend on Java, such as [openxlsx](https://cran.r-project.org/web/packages/openxlsx/openxlsx.pdf) or [readxl](https://cran.r-project.org/web/packages/readxl/readxl.pdf). 
@@ -63,4 +61,14 @@ For example, if one has installed the 64-bit version of R but has the 32-bit ver
 
 <b>SOLUTION: </b> This problem can be resolved by either [installing the 64-bit version of Java Runtime for Windows](https://java.com/en/download/), or by changing the RStudio configuration to use the 32-bit version of R.
 
-*last updated 23 November 2017* 
+# Java / R Compatibility with Non-English Versions of Windows 10
+
+Note that as of July 2020, users on [Stackoverflow.com](https://stackoverflow.com/questions/62740681/matching-64-bits-versions-but-error-loading-rjava) have reported problems installing Java and rJava in the scenario where the version of Windows is a non-English language version (e.g. Chinese, Polish, etc.). It appears that the way the Java installer works with these versions of Windows, R and the `rJava` package are not able to access the `JAVA_HOME` directory correctly. 
+
+To correct the problem, reinstall R with the same language used by Windows. That is, on the Chinese version of Windows, install R with Chinese langauge support. Once installed, you can change the language to English by setting `language = "en"` in the `.Rconsole` file. 
+
+# Overview of R Packages for Excel 
+
+There are four different packages that allow R users to load Excel spreadsheets into R. An overview of these packages may be found at [Reading Excel Files](https://bit.ly/3fqT3TB).
+
+*last updated 30 December 2020* 

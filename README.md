@@ -68,6 +68,8 @@ The next set of articles includes general commentary about the course, R program
 ### Posts regarding specifics of programming assignments
 
 1. [Assignment 1: Breaking Down Pollutantmean](http://bit.ly/2cHyiCl)
+2. [Assignment 1: Breaking Down Complete](https://bit.ly/35wUnSO)
+2. [Assignment 1: Breaking Down Corr](https://bit.ly/2UwrfFe)
 2. [Assignment 1: A SAS Version of  Pollutantmean](http://bit.ly/2d3DR4e)
 3. [Assignment 1: Common Mistakes - Weighted vs. Unweighted Means](http://bit.ly/2cA0fSh)
 3. [Assignment 1: Common Mistakes - complete("specdata",332:1) fails](http://bit.ly/2uSLhui)
@@ -94,12 +96,13 @@ The next set of articles includes general commentary about the course, R program
 2. [Scaling R for Data Science](http://oreil.ly/2b8pQyR) August 2016 article by Federico Castanedo explaining three ways to scale R.  
 3. [Lexical Scoping and Statistical Computing](http://bit.ly/2cmqAPy) Article by Robert Gentleman and Ross Ihaka at the University of Auckland describing how lexical scoping works, and why it is valuable in statistical computing.
 4. [Data Science Job Report 2017: R Passes SAS, But Python Leaves Them Both Behind](http://bit.ly/2oCHulX) Bob Muenchen's take on the job market for various data science langauges.
-5. [Redmonk Programming Language Rankings: June 2018](http://bit.ly/2MBKV4M) Steven O'Grady's analysis of popularity of programming languages, based on their activity on [Github](https://github.com) and [Stackoverflow](https://stackoverflow.com).
+5. [Redmonk Programming Language Rankings: February 2020](https://bit.ly/3ceFUM4) Steven O'Grady's analysis of popularity of programming languages, based on their activity on [Github](https://github.com) and [Stackoverflow](https://stackoverflow.com).
 6. [IEEE 2018 Language Rankings](http://bit.ly/2KKwgTa) R-bloggers article highlighting the 2018 IEEE programming language rankings. 
 
 ## Course 3: Getting and Cleaning Data
 
-1. [Week 1: Demystifying HTML Parsing: Baltimore Ravens Game Scores](http://bit.ly/2gv12SS)
+1. [Week 1: Demystifying HTML Parsing: Baltimore Ravens Game Scores](http://bit.ly/2gv12SS) Updated through November 2020, this article explains changes made to the ESPN pages for the Baltimore Ravens NFL team, and how to extract game scores from the pages as they changed over time. 
+2. [Week 1: HTML Parsing - Gotta scrape 'em all](https://bit.ly/3lXXPvD) Provides another example of HTML scraping with a less complex data source than the ESPN Baltimore Ravens Scores. 
 2. [Real World Example: Importance of Getting and Cleaning Data](http://bit.ly/2xEBTga) Illustrates what happens when we use data to make inferences when we don't understand the errors and/or limits of data collection and cleaning. Taken from a chart posted on Twitter during August 2017 by a company that sells data visualization software
 2. [Real World Example: Reading American Community Survey data](http://bit.ly/2bAdLE9) Illustrates concepts covered in *Getting and Cleaning Data* with U.S. Census data, including how to process a hierarchical file format in R, as well as using an electronic codebook to generate the parameters required to read the data file into a data frame.
 3. [Common Problems: Quiz 1 - Missing Java Runtime](http://bit.ly/2jjtyXM) Explains how to solve the problem of a missing Java Runtime for the question that requires students to process a Microsoft Excel spreadsheet.
@@ -112,11 +115,14 @@ The next set of articles includes general commentary about the course, R program
 1. [Tidy Data](http://bit.ly/2nyw5Ci) Hadley Wickham's paper on Tidy Data, required reading for the course project.
 2. [data.table Github Wiki](http://bit.ly/2og7rDK) Repository for `data.table` package, including video.
 3. [Tutorial: Downloading Files](http://bit.ly/2iP2suj) Illustrates various ways of downloading files, including binary and text files.
+4. [Cheatsheet: R Syntax Comparison](https://bit.ly/3cxWabo) Illustrates how to perfrom various tasks in R using three "dialects" of syntax, including the [$ form of the extract operator](http://bit.ly/2bzLYTL), formulas, and the [pipe operator](https://bit.ly/2Luu8BT) that is central to the Tidyverse family of packages.  
 
 ## Course 4: Exploratory Data Analysis
 
 1. [Assignment 1: Reading a Subset of Raw Data](http://bit.ly/2oAHoqI)
 2. [CONCEPTS: Strategies for Imputing Missing Values](http://bit.ly/2w1b0FN)
+3. [The Fundamentals of Data Visualization](https://bit.ly/35WjP2E)
+4. [Data Visualization: a practical introduction](https://bit.ly/2YSWL3A)
 
 
 ## Course 5: Reproducible Research
@@ -156,6 +162,7 @@ The next set of articles includes general commentary about the course, R program
 
 ## Course 8: Practical Machine Learning
 1. [Week 3: Installing Rgtk2 and Rattle on OS X](http://bit.ly/2w13R8B)
+2. [Week 3: Accessing files from ElemStatLearn package](https://bit.ly/3ewl6Rg): Explains how to obtain the data files needed for the week 3 and week 4 quizzes. 
 2. [Week 4: Combining Predictors Math Explained](http://bit.ly/2i5z0Q4)
 2. [Course Project - gh-pages Setup with RStudio](http://bit.ly/2bTvGqr)
 2. [Course Project - Improving Runtime Performance of Random Forest Models with caret::train()](http://bit.ly/2bYtutG)
@@ -163,6 +170,7 @@ The next set of articles includes general commentary about the course, R program
 
 ## Course 9: Developing Data Products
 1. [Configuring shinyapps.io Application Timeout](http://bit.ly/2dEq8O8) A walkthrough on how to configure a Shiny application so it doesn't waste the free monthly server processing time.
+2. [Mastering Shiny](https://bit.ly/3bD6f6c) The online version of Hadley Wickham's forthcoming book (expected late 2020). 
 
 ## Course 10: Capstone
 1. [Speech and Language Processing, 3rd Edition](https://web.stanford.edu/~jurafsky/slp3/) Working version of Jurafsky, et. al. book on natural language processing whose content on n-grams is helpful for the capstone.
